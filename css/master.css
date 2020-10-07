@@ -2,9 +2,30 @@
  background-color: #333;
 }
 
+#customers, #descripton, #teams{
+  background-color: lightgrey;
+}
+
+#test_speed, #get_started{
+  background-color: blue;
+}
+
+img{
+  width: 50%
+}
+
+.server{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
 /* COMMON */
 .h50{
   height: 50px;
+}
+
+.h150{
+  height: 150px;
 }
 
 .h500{
@@ -13,6 +34,10 @@
 
 .h1000{
   height: 1000px;
+}
+
+.centered{
+  text-align: center;
 }
 
 /* DEBUG:  */
@@ -37,4 +62,14 @@
   background-color: orange;
 }
 
-.
+.brown{
+  background-color: brown;
+}
+
+.red{
+  background-color: red;
+}
+
+.pink{
+  background-color: pink;
+}
