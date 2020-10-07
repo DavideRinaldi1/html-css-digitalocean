@@ -40,6 +40,9 @@ img{
   margin-bottom: 0;
 }
 
+.wht{
+  color: white;
+}
 /* DEBUG:  */
 
 .debug{
@@ -50,8 +53,8 @@ img{
   background-color: green;
 }
 
-.blue{
-  background-color: blue;
+.navy{
+  background-color: navy;
 }
 
 .yellow{
