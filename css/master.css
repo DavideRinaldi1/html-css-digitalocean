@@ -36,8 +36,8 @@ img{
   height: 1000px;
 }
 
-.centered{
-  text-align: center;
+.mb-0{
+  margin-bottom: 0;
 }
 
 /* DEBUG:  */
