@@ -1,0 +1,40 @@
+.jumbotron{
+ background-color: #333;
+}
+
+/* COMMON */
+.h50{
+  height: 50px;
+}
+
+.h500{
+  height: 500px;
+}
+
+.h1000{
+  height: 1000px;
+}
+
+/* DEBUG:  */
+
+.debug{
+  border: 1px solid red;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.
