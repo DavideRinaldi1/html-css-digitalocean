@@ -14,6 +14,7 @@
 
 #main_content{
   color: #606E8B;
+  padding: 30px;
 }
 
 .nav_logo img{
@@ -25,8 +26,6 @@
 .deploy img{
   width: 30px;
 }
-
-.deploy
 
 /* img{
   width: 50%
@@ -117,6 +116,16 @@ form{
   border-bottom-right-radius: 5px;
 }
 
+.for_developer img{
+  height: 300px;
+}
+
+#text_dev{
+  margin-top: 15px;
+}
+
+
+
 .server{
   color: white;
   border-bottom: 1px solid white;
@@ -182,10 +191,17 @@ form{
   padding-left: 0;
 }
 
+.mb-40{
+  margin-bottom: 40px;
+}
+
 .p-relative{
   position: relative;
 }
 
+.fa-circle, .fa-circle-o{
+  color: #006AFF;
+}
 
 .wht{
   color: white;
