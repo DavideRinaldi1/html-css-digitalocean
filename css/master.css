@@ -18,7 +18,8 @@
 }
 
 .nav_logo img{
-  height: 50px;
+  height: 40%;
+  max-height: 30px;
   margin-left: 20px;
   margin-bottom: 10px;
 }
@@ -113,7 +114,8 @@ form{
 }
 
 .for_developer img{
-  height: 300px;
+  width: 80%;
+  max-width: 500px;
 }
 
 #text_dev{
@@ -128,6 +130,7 @@ form{
 .customers img{
   width: 100%;
   height: 100%;
+  max-height: 100px;
 }
 
 .stories{
@@ -143,6 +146,20 @@ form{
 .server a{
   color: #00A9C8;
   font-weight: bold !important;
+}
+
+.box{
+  width: 25%;
+  height: 280px;
+  max-width: 500px;
+  background-color: #FFF;
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 /* COMMON */
@@ -175,6 +192,10 @@ form{
 
 .mb-0{
   margin-bottom: 0;
+}
+
+.mb-30{
+  margin-bottom: 30px;
 }
 
 .lh50{
