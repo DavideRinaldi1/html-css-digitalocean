@@ -1,17 +1,120 @@
 .jumbotron{
- background-color: #333;
+ background-image: url('../img/hero.svg');
+ background-position: center;
+ background-size: cover;
 }
 
 #customers, #descripton, #teams{
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 
 #test_speed, #get_started{
   background-color: blue;
 }
 
-img{
+#main_content{
+  color: #606E8B;
+}
+
+.nav_logo img{
+  height: 40%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.deploy img{
+  width: 30px;
+}
+
+.deploy
+
+/* img{
   width: 50%
+} */
+
+.nav_bar ul li{
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.inverted_button{
+  background-color: #fff !important;
+  border: 1px solid #006AFF !important;
+  color: #006AFF !important;
+  font-weight: bold;
+}
+
+.ms_button{
+  background-color: #006AFF !important;
+  border: 1px solid #006AFF !important;
+  color: #FFF !important;
+  font-weight: bold;
+}
+
+.fa-bars{
+  font-size: 3rem;
+  color: #006AFF;
+}
+
+.hero{
+  top: 175px;
+}
+
+.card{
+  position: relative;
+  top: 195px;
+}
+
+@media screen and (max-width: 991px) {
+  .hero{
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card{
+    position: relative;
+    top: 80px;
+  }
+
+  .hero{
+    position: relative;
+    top: 20px;
+  }
+}
+
+.hero_title{
+  font-size: 70px;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+.hero_subtitle{
+  font-size: 30px;
+  color: #FFF;
+  font-weight: lighter;
+}
+
+.card_header{
+  background-color: lightgrey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card_form{
+  background-color: #FFF;
+}
+
+form{
+  padding: 30px;
+}
+
+.card_bottom{
+  background-color: #FFF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .server{
@@ -19,9 +122,28 @@ img{
   border-bottom: 1px solid white;
 }
 
+.customers img{
+  width: 100%;
+  height: 100%;
+}
+
+.stories{
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.right_menu li{
+  border-left: 1px solid #CCCCCC;
+  padding: 5px;
+}
+
 /* COMMON */
 .h50{
   height: 50px;
+}
+
+.h100{
+  height: 100px;
 }
 
 .h150{
@@ -32,13 +154,38 @@ img{
   height: 500px;
 }
 
-.h1000{
-  height: 1000px;
+.h800{
+  height: 800px;
+}
+
+.h1100{
+  height: 1100px;
 }
 
 .mb-0{
   margin-bottom: 0;
 }
+
+.lh50{
+  line-height: 50px;
+}
+
+.lh100{
+  line-height: 100px;
+}
+
+.pr0{
+  padding-right: 0;
+}
+
+.pl0{
+  padding-left: 0;
+}
+
+.p-relative{
+  position: relative;
+}
+
 
 .wht{
   color: white;
