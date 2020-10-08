@@ -161,6 +161,13 @@ form{
   margin-top: 50px;
   margin-bottom: 20px;
 }
+ .get{
+   padding: 60px;
+ }
+
+ .ms_footer{
+   background-color: #031C4E;
+ }
 
 /* COMMON */
 .h50{
@@ -216,6 +223,10 @@ form{
 
 .p20{
   padding: 20px;
+}
+
+.p30{
+  padding: 30px;
 }
 
 .mb-40{
