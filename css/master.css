@@ -118,6 +118,21 @@ form{
   max-width: 500px;
 }
 
+.chevron-left{
+  right: 20px;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.chevron-right{
+  left: 20px;
+  cursor: pointer;
+}
+
+[class*=fa-circle]{
+  cursor: pointer;
+}
+
 #text_dev{
   margin-top: 15px;
 }
@@ -147,6 +162,12 @@ form{
   color: #00A9C8;
   font-weight: bold !important;
 }
+
+.wht a{
+  color: #00A9C8;
+  font-weight: bold !important;
+}
+
 
 .box{
   width: 25%;
@@ -221,13 +242,30 @@ form{
   padding-left: 0;
 }
 
+.p5{
+  padding: 5px;
+}
+
 .p20{
   padding: 20px;
+}
+
+.pt20{
+  padding-top: 20px
+}
+
+.pb5{
+  padding-bottom: 5px;
+}
+
+.pb20{
+  padding-bottom: 20px;
 }
 
 .p30{
   padding: 30px;
 }
+
 
 .mb-40{
   margin-bottom: 40px;
