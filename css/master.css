@@ -163,7 +163,7 @@ form{
   font-weight: bold !important;
 }
 
-.wht a{
+.last_row a{
   color: #00A9C8;
   font-weight: bold !important;
 }
@@ -175,19 +175,63 @@ form{
   max-width: 500px;
   background-color: #FFF;
   padding: 20px;
-  position: relative;
+  display: inline-block;
+  /* position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%); */
   margin-top: 50px;
   margin-bottom: 20px;
 }
+
+.box > span:first-of-type{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .box > span:first-of-type{
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 566px) {
+  .box{
+    width: 50%;
+  }
+
+}
+
  .get{
    padding: 60px;
  }
 
  .ms_footer{
    background-color: #031C4E;
+ }
+
+ .ms_footer > .row {
+   padding-top: 60px;
+ }
+
+ .ms_footer > .row > div > img{
+   vertical-align: baseline;
+   margin: 0 15px 15px 0
+ }
+
+ .ms_footer > .row > div > span{
+   font-size: 1rem;
+   color: #CCC;
+ }
+
+ .ms_footer > .row > div > i{
+   font-size: 2rem;
+   letter-spacing: 1rem;
+   color: #ccc;
+ }
+
+ .ms_footer > li  a{
+   color: #CCC !important;
  }
 
 /* COMMON */
@@ -266,7 +310,6 @@ form{
   padding: 30px;
 }
 
-
 .mb-40{
   margin-bottom: 40px;
 }
@@ -282,6 +325,7 @@ form{
 .wht{
   color: white;
 }
+
 /* DEBUG:  */
 
 .debug{
