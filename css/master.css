@@ -2,6 +2,7 @@
  background-image: url('../img/hero.svg');
  background-position: center;
  background-size: cover;
+ margin-bottom: 0;
 }
 
 #customers, #descripton, #teams{
@@ -63,7 +64,7 @@
 
 @media screen and (max-width: 991px) {
   .hero{
-    top: 25px;
+    top: 100px;
   }
 }
 
@@ -75,7 +76,11 @@
 
   .hero{
     position: relative;
-    top: 20px;
+    top: 73px;
+  }
+
+  .h1100{
+    height: 1335px !important;
   }
 }
 
@@ -202,6 +207,19 @@ form{
 
 }
 
+.chevron-left-teams{
+  right: 20px;
+  color: lightgrey;
+  cursor: pointer;
+  bottom: 110px;
+}
+
+.chevron-right-teams{
+  left: 20px;
+  cursor: pointer;
+  bottom: 110px;
+}
+
  .get{
    padding: 60px;
  }
@@ -325,6 +343,7 @@ form{
 .wht{
   color: white;
 }
+
 
 /* DEBUG:  */
 
