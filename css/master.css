@@ -48,6 +48,21 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 1368px) {
+  .nav_bar ul li{
+    font-size: 1.5rem;
+  }
+
+  .inverted_button{
+    padding: 5px 8px;
+  }
+
+  .ms_button{
+    padding: 5px 8px;
+  }
+
+}
+
 .fa-bars{
   font-size: 3rem;
   color: #006AFF;
